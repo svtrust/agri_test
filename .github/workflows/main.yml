@@ -5,12 +5,12 @@ on:
         - main
 name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
+  FTP-Deploy-Action:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2.1.0
     
     - name: 📂 Sync files
       uses: Penguibird/FTP-Deploy-Action@4.2.0
