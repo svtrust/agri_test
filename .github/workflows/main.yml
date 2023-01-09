@@ -15,6 +15,6 @@ jobs:
     - name: 📂 Sync files
       uses: Penguibird/FTP-Deploy-Action@4.2.0
       with:
-        server: ftp.jsaagri.in
+        server: https://www.jsaagri.in/
         username: rzbqfsovfmtc@jncp.in
         password: Hw1xwq3;W5-c
