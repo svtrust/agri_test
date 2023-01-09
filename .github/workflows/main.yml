@@ -16,5 +16,5 @@ jobs:
       uses: Penguibird/FTP-Deploy-Action@4.2.0
       with:
         server: ftp.jsaagri.in
-        username: rzbqfsovfmtc@jncp.in
+        username: git-test@jsaagri.in
         password: Hw1xwq3;W5-c
