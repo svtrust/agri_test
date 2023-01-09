@@ -2,7 +2,7 @@
 on: 
   push:
       branches:
-        -main
+        - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -16,7 +16,5 @@ jobs:
       uses: Penguibird/FTP-Deploy-Action@4.2.0
       with:
         server: ${{ secrets.FTP_SERVER }}
-        hostname: ftp.jsaagri.in
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/jncp.in/git-test
