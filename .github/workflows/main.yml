@@ -18,4 +18,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /home/rzbqfsovfmtc/public_html/jncp.in/
+        server-dir: /jncp.in/
